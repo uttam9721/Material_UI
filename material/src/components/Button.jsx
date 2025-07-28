@@ -8,6 +8,7 @@ import { Fab } from '@mui/material';
 import { Checkbox } from '@mui/material';
 import Rating  from '@mui/material/Rating';
 import Slider  from '@mui/material/Slider';
+import Box  from '@mui/material/Box';
 
 const MyButton = () => {
   return (
@@ -84,6 +85,9 @@ const MyButton = () => {
 
 <h1>Slider</h1>
 <Slider />
+
+<h1>Margin</h1>
+<Box m={10}>Uttam Maurya</Box> 
     </div>
   );
 };
