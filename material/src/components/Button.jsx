@@ -1,10 +1,13 @@
 import React from 'react';
 import { Button, IconButton } from '@mui/material'; // MUI Button
 import AutoDeleteIcon from '@mui/icons-material/AutoDelete';
+
 // import { IconButton } from '@mui/material';
 import { ButtonGroup } from '@mui/material';
 import { Fab } from '@mui/material';
 import { Checkbox } from '@mui/material';
+import Rating  from '@mui/material/Rating';
+import Slider  from '@mui/material/Slider';
 
 const MyButton = () => {
   return (
@@ -75,6 +78,12 @@ const MyButton = () => {
 <Checkbox control={Checkbox} lebel='start' lebelPlacement="top" />
 <Checkbox  disabled />
 <Checkbox  disabled checked />
+
+<h1>Rating</h1>
+<Rating value={4}  readOnly/>
+
+<h1>Slider</h1>
+<Slider />
     </div>
   );
 };
